@@ -15,6 +15,7 @@ import javax.persistence.Table;
 public class Permission {
 
     @Id
+    @EqualsAndHashCode.Include
     private Long id;
 
     @Column(name = "descricao")
